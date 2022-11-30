@@ -4,8 +4,7 @@
   "description": "A modern version of the default SPFx template using PnPjs libraries and React Function Components.",
   "main": "./src/index.ts",
   "files": [
-    "src",
-    "tsconfig.json"
+    "generators"
   ],
   "scripts": {
     "build": "gulp bundle",
@@ -55,6 +54,6 @@
     "ajv": "^6.12.5",
     "eslint-plugin-react-hooks": "^4.3.0",
     "gulp": "^4.0.2",
-    "typescript": "^4.9.3"
+    "typescript": "4.5"
   }
 }
