@@ -2,14 +2,12 @@
   "name": "generator-cloudwerk-spfx",
   "version": "1.0.0",
   "description": "A modern version of the default SPFx template using PnPjs libraries and React Function Components.",
-  "main": "./src/index.ts",
+  "main": "index.js",
   "files": [
-    "generators"
+    "webpart"
   ],
   "scripts": {
-    "build": "gulp bundle",
-    "clean": "gulp clean",
-    "test": "gulp test"
+
   },
   "repository": {
     "type": "git",
