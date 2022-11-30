@@ -4,7 +4,7 @@
   "description": "A modern version of the default SPFx template using PnPjs libraries and React Function Components.",
   "main": "index.js",
   "files": [
-    "webpart"
+    "generators"
   ],
   "scripts": {
 
