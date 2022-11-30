@@ -2,7 +2,7 @@
   "name": "generator-cloudwerk-spfx",
   "version": "1.0.0",
   "description": "A modern version of the default SPFx template using PnPjs libraries and React Function Components.",
-  "main": "index.js",
+  "main": "index.ts",
   "files": [
     "generators"
   ],
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Cloudwerk/generator-cloudwerk-spfx#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "yeoman-generator": "^5.7.0"
   }
 }
