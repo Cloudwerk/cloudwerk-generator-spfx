@@ -9,28 +9,10 @@
           "manifest": "./src/webparts/dashboard/DashboardWebPart.manifest.json"
         }
       ]
-    },
-    "questions-form-customizer": {
-      "components": [
-        {
-          "entrypoint": "./lib/extensions/questions/QuestionsFormCustomizer.js",
-          "manifest": "./src/extensions/questions/QuestionsFormCustomizer.manifest.json"
-        }
-      ]
-    },
-    "answers-form-customizer": {
-      "components": [
-        {
-          "entrypoint": "./lib/extensions/answers/AnswersFormCustomizer.js",
-          "manifest": "./src/extensions/answers/AnswersFormCustomizer.manifest.json"
-        }
-      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "DashboardWebPartStrings": "lib/webparts/dashboard/loc/{locale}.js",
-    "QuestionsFormCustomizerStrings": "lib/extensions/questions/loc/{locale}.js",
-    "AnswersFormCustomizerStrings": "lib/extensions/answers/loc/{locale}.js"
+    "DashboardWebPartStrings": "lib/webparts/dashboard/loc/{locale}.js"
   }
 }

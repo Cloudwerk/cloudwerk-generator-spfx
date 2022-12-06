@@ -8,7 +8,7 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     this.log(
       yosay(
-        `Welcome to the amazing ${chalk.red('generator-cloudwerk-spfx')} generator!`
+        `Welcome to the amazing ${chalk.red('Cloudwerk SPFx')} generator!`
       )
     );
   }
